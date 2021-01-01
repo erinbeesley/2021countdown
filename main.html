@@ -46,19 +46,16 @@
                 top: 0px;
                 left: 0px;
                 z-index: 101;
-                background-image: url('https://nggyu.nyc3.cdn.digitaloceanspaces.com/desktopbg.png');
                 background-size: cover;
             }
 
             @media only screen and (max-width: 1050px) {
                 .cookie-consent-background {
-                    background-image: url('https://nggyu.nyc3.cdn.digitaloceanspaces.com/tabletbg.png');
                 }
             }
 
             @media only screen and (max-width: 550px) {
                 .cookie-consent-background {
-                    background-image: url('https://nggyu.nyc3.cdn.digitaloceanspaces.com/mobilebg.png');
                 }
             }
 
@@ -116,17 +113,14 @@
 
 <div id="layout" class="pure-g">
     <div id="cookie-consent" class="pure-u-1">
-	    <div class="cookie-consent-background"></div>
+	    <div class="cookie-consent-background" style="background-color: white"></div>
         <div class="cookie-consent-content">
             <h3 class="text-white">
-                Like everyone on the internet, we use cookies to improve your experience. If you're ok with that please click accept.
+				cookies please
             </h3>
-            <p class="brand-tagline text-white">
-                (You can still view the page if you decline, but your experience may be impacted.)
-            </p>
+
             <p>
-                <button class="pure-button button-large">Accept</button>    
-                <button class="pure-button button-large decline-button">Decline</button>    
+                <button class="pure-button button-large">give cookies</button>    
             </p>
         </div>
     </div>
